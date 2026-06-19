@@ -1,1 +1,10 @@
 # GreenPulse-AI
+
+streamlit
+pandas
+numpy
+catboost
+plotly
+Pillow
+reportlab
+qrcode

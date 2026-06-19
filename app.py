@@ -29,7 +29,7 @@ def add_header(canvas, doc):
     # === LEFT LOGO ===
     try:
         canvas.drawImage(
-            ImageReader(r"https://github.com/PratikBhagyawant/GreenPulse-AI/blob/main/logo.png"),
+            ImageReader(r"logo.png"),
             left_margin,
             y_top - 70,
             width=110,
@@ -42,7 +42,7 @@ def add_header(canvas, doc):
     # === RIGHT LOGO ===
     try:
         canvas.drawImage(
-            ImageReader(r"https://github.com/PratikBhagyawant/GreenPulse-AI/blob/main/farmer.png"),
+            ImageReader(r"farmer.png"),
             right_margin - 110,
             y_top - 70,
             width=110,
@@ -131,7 +131,7 @@ def generate_pdf(
         leading=14   # prevents text collision
     )
 
-    health_card_url = f"https://https://greenpluseai.streamlit.app/health-card/{username}"
+    health_card_url = f"https://greenpluseai.streamlit.app/health-card/{username}"
 
     qr = qrcode.make(health_card_url)
 
